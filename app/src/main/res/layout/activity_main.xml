@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HR Job Messanger"
+        android:textSize="30sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/darkblue"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/et1"
+        android:hint="To"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/black"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et2"
+        android:textStyle="italic"
+        android:hint="Company Name"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/black"
+        android:inputType="textAutoComplete"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/et3"
+        android:textStyle="italic"
+        android:hint="Job Type"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="italic"
+        android:hint="Job Description"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/black"
+        android:id="@+id/et4"
+        android:layout_marginTop="20dp"
+        android:inputType="textLongMessage"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="italic"
+        android:hint="Salary"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/black"
+        android:id="@+id/et5"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="italic"
+        android:hint="Regards"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et6"
+        android:inputType="text|textMultiLine"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SEND"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/round_btn"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn1"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+</ScrollView>
